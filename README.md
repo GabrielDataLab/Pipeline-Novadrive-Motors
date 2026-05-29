@@ -1,4 +1,4 @@
-# Pipeline NovaDrive Motors 🚗
+# Pipeline NovaDrive Motors 
 
 Pipeline de dados completo para uma montadora de veículos fictícia — extrai dados transacionais de um banco PostgreSQL, carrega incrementalmente em um Data Warehouse no Snowflake via Apache Airflow, e transforma os dados em camadas analíticas com dbt, seguindo arquitetura medallion (Stage → Dimensions/Facts → Analytics).
 
