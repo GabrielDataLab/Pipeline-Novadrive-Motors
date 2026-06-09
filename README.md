@@ -284,6 +284,36 @@ Para configurar o mesmo ambiente:
 
 ---
 
+## Dashboard Power BI
+
+Dashboard executivo de vendas construído sobre o schema `ANALYTIC` do Snowflake,
+consumindo as tabelas geradas pelo pipeline dbt.
+
+**Ferramenta:** Power BI Desktop  
+**Fonte de dados:** Snowflake — schema `ANALYTIC`  
+**Páginas:** 6 (Capa + 5 visões analíticas)  
+**Medidas DAX:** Receita Total, Qtd Vendas, Ticket Médio, Rankings (RANKX),
+% Participação, Receita Média por Concessionária, Melhor Vendedor, Ticket Médio da Melhor Concessionária
+
+### Páginas
+
+| Página | Descrição |
+|---|---|
+| Capa | Navegação central com botões para todas as páginas |
+| Visão Geral | KPIs executivos, receita por dia, por tipo de veículo e top estados |
+| Veículos | Ranking por receita e volume, scatter Volume vs Receita, desempenho por tipo |
+| Geográfico | Mapa de bolhas, treemap por estado/cidade, ranking de estados por receita |
+| Concessionárias | KPIs, ranking, scatter receita vs volume, matriz por tipo de veículo |
+| Vendedores | Ranking por receita, top por volume, scatter perfil Receita vs Volume |
+
+### Preview
+
+| | |
+|---|---|
+| ![Capa](dashboard/00_capa.jpg) | ![Visão Geral](dashboard/01_visao_geral.jpg) |
+| ![Veículos](dashboard/02_veiculos.jpg) | ![Geográfico](dashboard/03_geografico.jpg) |
+| ![Concessionárias](dashboard/04_concessionarias.jpg) | ![Vendedores](dashboard/05_vendedores.jpg) |
+
 ## Autor
 
 **Gabriel Medeiros** — [LinkedIn](https://linkedin.com/in/gabrielhdata) · [GitHub](https://github.com/GabrielDataLab)
