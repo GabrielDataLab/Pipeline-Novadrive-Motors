@@ -161,8 +161,8 @@ O projeto inclui teste de validação de regra de negócio: verifica se o valor 
 
 ### Banco de Dados NovaDrive Motors
 
-O banco PostgreSQL utilizado neste projeto é o banco público disponibilizado
-pelo curso. Use as credenciais abaixo para conectar:
+O banco PostgreSQL utilizado neste projeto é o banco de dados transacional de uma montadora fictícia. 
+Use as credenciais abaixo para conectar:
 
 | Parâmetro | Valor |
 |---|---|
